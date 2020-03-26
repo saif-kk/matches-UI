@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bitkraft Matches</title>
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="mainBody">
+
+    <div class="wrapper">
+        <div class="container-fluid">
+            <h3 class="text-center">Teams Participating</h3>
+            <table class="table" id="teamTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Country</th>
+                        <th>TeamName</th>
+                        <th>Total Match</th>
+                        <th>Won</th>
+                        <th>Loss</th>
+                        <th>Points</th>
+                        <th>Players</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+            <div id="dispPlayer" style="display:none">
+                <button id="teamTableBtn" class="btn btn-warning">Go Back</button> 
+
+                <h5 class="text-center">Team <span id="teamNameS"></span></h5>
+                <table class="table" id="playerTeam">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Playing Type</th>
+                                <th>Age</th>
+                                <th>Player No</th>
+                                <th>Total Run</th>
+                                <th>Wicket Taken</th>
+                                <th>Run Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+            </div>
+           
+        </div>
+
+    </div>
+
+    <!-- JS  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="header.js"></script>
+    <script src="footer.js"></script>
+    <script src="functions/panel.js"></script>
+    <script src="functions/index.js"></script>
+
+</body>
+
+</html>
